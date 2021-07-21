@@ -1,0 +1,35 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh/*855px*/;
+    background-image: url(../img/bgheader.png);
+    background-position: center;
+    text-align: center;
+}
+
+
+.home__title {
+
+    margin-bottom:0.5em;
+}
+
+.home__subtext{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 9px;
+    font-size: 20pt;
+    margin: 2em;
+}
+
+
+#objectsHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh/*500px*/;
+    background-image: url(../img/objectsheader.png);
+    background-position: center;
+    text-align: center;
+}

@@ -1,0 +1,181 @@
+/*--servgrid--*/
+
+.servGrid {
+    display: grid;
+    grid-template-areas:
+    "servimg servimg"
+    "servh2 servh2"
+    "servp servp";
+    grid-template-rows: 40% 35% 20%;
+    grid-template-columns:40% 40%;
+    grid-row-gap:25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceH2 {
+    grid-area: servh2;
+    min-height: 10vh;
+    padding-top: 0vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.serviceImg {
+    grid-area: servimg;
+    justify-self: center;
+
+}
+
+.serviceP {
+    grid-area: servp;
+    align-self: center;
+    overflow: hidden;
+}
+
+
+
+/*--rolgrid--*/
+
+
+#rol {
+    padding-top: 90px;
+    h2 {
+        line-height: 70pt;
+    }
+}
+.rolGrid {
+    display: grid;
+    grid-template-areas: 
+    "rolimg rolimg" 
+    "rolh2 rolh2"
+    "rolp rolp"
+    "roltable roltable";
+    grid-template-rows: 23% 15% 42% 15%;
+    grid-template-columns: 40% 40%;
+    grid-row-gap:25px;
+    justify-content: center;
+}
+
+.rolH2 {
+    grid-area: rolh2;
+    align-self: center;
+}   
+
+.rolP {
+    grid-area: rolp;
+}
+
+.rolTable {
+    grid-area: roltable;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.rolImg {
+    grid-area: rolimg;
+    align-self: center;
+    justify-self: center;
+}
+
+.bigH2 {
+    font-size: 53pt;
+    line-height: 70pt;
+}
+
+/*--table--*/
+
+.rolTh {
+    background-color: $light-violet;
+    color: $cream;
+    border: solid 1px;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+.rolTd{
+    border: solid 1px;
+    padding: 12pt;
+    text-align: center;
+}
+
+/*--form--*/
+
+.contactField{
+    border: none;
+    border-radius: 15px;
+    background-color:  $light-violet;
+    padding: 30px;
+}
+
+.form {
+    display: block;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    h3 {
+        margin-bottom: 10px;    
+    }
+    
+}
+
+
+.form__inputStyle {
+    margin-bottom: 20px;
+    background-color: $light-violet;
+    border: solid 2px $cream;
+    border-radius: 10px;
+    font-size: 16pt;
+    color: #fff;
+    padding: 5px;
+
+}
+
+
+.form__inputBox {
+    width: 300px;
+    min-height: 30px;
+    margin: 10px;
+}
+
+
+.form__radio {
+    max-width: 150px;
+    font-size: 12pt;
+    margin-right: 15px;
+}
+
+.form__textarea{
+    background-color:  $light-violet;
+    width: 300px;
+    border: solid 2px $cream;
+    border-radius: 10px
+}
+
+$btncolor: (
+    enviar: #f8c885,
+    limpiar: $cream,
+    js: #3d364d,
+);
+
+@each $name-btn, $color-btn in $btncolor {
+    .btn--#{$name-btn} {
+        background-color: $color-btn;
+    }
+    
+}
+
+.formButton {
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 19px;
+    color: $light-violet;
+}
+

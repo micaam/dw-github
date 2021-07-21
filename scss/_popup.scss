@@ -1,0 +1,151 @@
+.overlay { 
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .overlay:target{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*big*/
+
+  .popup__bodyBig {
+    width: 78%;
+    height: 87vh;
+    padding: 10px;
+    border-radius: 15px;
+    background: $light-violet;
+    position: relative;
+    margin: 2%;
+    margin-top: 11vh;
+    text-align: center;
+    .popup__contentBig {
+        transform: translate(-10%) rotateZ(90deg);
+        
+    }  }  
+ 
+
+  .popup__closeBig
+  {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .popup__contentBig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 22vh;
+
+}
+
+/*small*/
+
+.popup__bodySmall {
+    width: 87%;
+    height: 85vh;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgb(247, 247, 247);
+    position: relative;
+    margin: 2% auto;
+    margin-top: 11vh;
+    text-align: center;
+    color: #000;
+    overflow: scroll;
+    h2{
+        color: $dark-violet;
+    }
+    img{
+        max-height: 50vh;
+        width: auto;
+      }
+  }
+
+  .popup__closeSmall
+  {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: $dark-violet;
+  }
+
+.popup__contentSmall {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      img {
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 25px;
+    }
+
+  }
+
+  /*objects*/
+
+.popup__bodySmall--objects {
+  width: 70%;
+  height: 85vh;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgb(247, 247, 247);
+  position: relative;
+  margin: 2% 3%;
+  margin-top: 11vh;
+  text-align: center;
+  color: #000;
+  overflow: scroll;
+  h2{
+      color: $dark-violet;
+  }
+  img{
+      max-height: 50vh;
+      width: auto;
+    }
+}
+
+.popup__closeSmall--objects
+{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $dark-violet;
+}
+
+.popup__contentSmall--objects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    img {
+      margin-left: 20px;
+      margin-right: 20px;
+      border-radius: 25px;
+  }
+
+}

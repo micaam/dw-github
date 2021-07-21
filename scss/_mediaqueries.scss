@@ -1,0 +1,277 @@
+
+@media only screen and (min-width: 700px) and (max-width: 1366px){
+
+    /*HOME*/
+
+    #home {
+        
+    height: 80vh;
+    }
+
+    .home__title {
+        margin-bottom: 0.3em;
+    }
+
+    h1{
+        font-size: 90pt;
+        line-height: 70pt;
+    }
+
+    .home__subtext{
+        font-size: 30pt;
+        margin: 1em;
+    }
+
+    .form__textarea{
+        width: 615px;
+    }
+
+
+    /*GRIDS*/
+
+    .servGrid {
+        display: grid;
+        grid-template-areas:
+        "servh2 servimg servimg"
+        "servh2 servimg servimg"
+        "servh2 servp servp";
+        grid-template-rows: 30% 30% 30%;
+        grid-template-columns: 45% 20% 20%;
+        grid-column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bigH2 {
+        font-size: 67pt;
+        font-weight: lighter;
+        line-height: 120pt;
+    }
+
+    .serviceH2 {
+        grid-area: servh2;
+        min-height: 0vh;
+        padding-top: 0vh;
+    }
+
+    .rolGrid {
+        display: grid;
+        grid-template-areas: 
+        "rolimg rolh2 rolh2" 
+        "rolimg rolp rolp"
+        "roltable rolp rolp";
+        grid-template-rows: 30% 30% 20%;
+        grid-template-columns: 45% 20% 20%;
+        grid-column-gap: 10px;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 45pt;
+    }
+    
+    .rolH2 {
+    align-self: center;
+}
+
+    /*GENERAL*/
+
+    .divBar {
+        display: inline;
+    }
+    
+    .card__back {
+        max-height: 350px;
+    }
+
+    #services, #rol {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #objectsHome {
+        height: 30vh;
+        h1 {
+            margin-top: 10vh;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 1370px){
+
+    /*FULL SCREEN HOME*/
+
+    #logo {
+        height: 40px;
+    }
+
+    h1 {        
+        font-size: 120pt;        
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+    .home__title {
+        margin: 0.3em;
+    }
+
+    .home__subtext{    
+        margin:0;
+        font-size: 40px;
+    }
+
+    /*FULL SCREEN SERVICES*/
+
+    .bigH2 {
+        font-size: 100pt;
+        line-height: 130pt;
+    }
+    
+ 
+    
+
+    /*FULL SCREEN GRIDS*/
+
+    .servGrid {
+        display: grid;
+        grid-template-areas:
+        "servh2 servh2 servimg servimg"
+        "servh2 servh2 servimg servimg"
+        "servh2 servh2 servp servp";
+        grid-template-rows: 35% 35% 25%;
+        grid-template-columns:360px 10% 10% 10%;
+        grid-column-gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serviceH2 {
+        min-height: 50vh;
+    }
+
+    .rolGrid {
+        display: grid;
+        grid-template-areas: 
+        "rolimg rolh2 rolh2" 
+        "rolimg rolp rolp"
+        "roltable rolp rolp";
+        grid-template-rows: 30% 20% 20%;
+        grid-template-columns: 340px 20% 12%;
+        grid-column-gap: 30px;
+        justify-content: center;
+    }
+
+    /*FULL SCREEN FORM*/
+
+    .form__textarea{
+        width: 615px;
+    }
+
+
+    /*FULL SCREEN GENERAL*/
+
+    h2 {
+        font-size: 55pt;
+    }
+    .card__back {
+        min-height: 600px;
+    }
+
+    .divBar {
+        display: inline;
+    }
+
+    
+    #objectsHome {
+        height: 50vh;
+        h1 {
+            margin-top: 0vh;
+        }
+    }
+    
+
+
+    #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy, #gallery{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .popup__bodySmall {
+        margin-top: 12vh;
+        padding: 70px;
+        text-align: left;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        img{
+            max-height: 70vh;
+            width: auto;
+          }
+    }
+
+
+    .popup__bodySmall::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .popup__bodySmall--objects {
+    width: 87%;
+    margin: 2% auto;
+    margin-top: 12vh;
+    padding: 70px;
+    text-align: left;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    img{
+        max-height: 70vh;
+        width: auto;
+      }
+}
+
+
+.popup__bodySmall--objects::-webkit-scrollbar {
+display: none;
+}
+
+
+      .popup__bodyBig {
+        width: 87%;
+        height: 87vh;
+        padding: 10px;
+        border-radius: 15px;
+        background: $light-violet;
+        position: relative;
+        margin: 2% auto;
+        margin-top: 11vh;
+        text-align: center;      
+    
+      }
+
+      .popup__contentBig {
+        margin-top: 0vh;
+        width: 100%;
+
+      }
+
+      .popup__bodyBig .popup__contentBig {
+        transform: rotateZ(0deg);
+    }
+     
+    
+      .popup__closeBig
+      {
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+      }
+
+
+
+}

@@ -1,0 +1,44 @@
+/*header*/
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top:0px;
+    background-color: $dark-violet;
+
+}
+
+.navList {
+    list-style: none;
+    font-weight: bold;
+    li {
+        margin-left: 30px;
+        padding: 25px;
+    } 
+    li:hover {
+        background-color: $light-violet;
+        .innerNavList {
+            display: block;
+            position: absolute;
+            margin-top: 25px;
+            margin-left: -25px;
+        }
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $cream;
+    }
+}
+
+.innerNavList {
+    list-style: none;
+    font-weight: normal;
+    display: none;
+    background-color: $light-violet;
+
+ 
+}

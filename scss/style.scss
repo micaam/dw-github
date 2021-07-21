@@ -1,0 +1,46 @@
+$dark-violet: #241b33;
+$light-violet: #2a233a;
+$cream: #fbd49d;
+
+@import "base";
+@import "components";
+@import "home";
+@import "grids";
+@import "gallery";
+@import "objects";
+@import "popup";
+@import "animations";
+@import "mediaqueries";
+
+
+#pick, #stones, #amulets{
+    text-align: center;
+}
+
+.cards {
+    margin: 60px;
+}
+
+.card__back {
+    max-height: 210px;
+}
+
+#services, #rol {
+    margin: 0px;
+}
+#pick, #contact, #stones, #amulets, #location, #aboutme, #energy, #gallery{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.flexboxRow {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .divBar {
+    display: none;
+}

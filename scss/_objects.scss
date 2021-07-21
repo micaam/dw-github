@@ -1,0 +1,28 @@
+
+#objectsInfo {
+    text-align: center;
+    padding: 60px;
+    color: $cream;
+}
+#objectsHome {
+    height: 60vh;
+    h1 {
+        margin-top: 15vh;
+    }
+}
+
+@each $objeto in rosequartz, amethyst, jade, snake, bird, dreamcatcher {
+    .#{$objeto} {
+        background-image: url('../img/#{$objeto}.jpg');
+        height: 350px;
+        width: 350px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+}
+
+#location {
+    iframe {
+        border-radius: 25px;
+    }
+}

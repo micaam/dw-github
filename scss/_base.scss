@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: british;
+    src: url(../fonts/BritishShorthair.otf);
+    font-weight: normal;
+  }
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color: $dark-violet;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+#logo {
+    height: 35px; }
+
+
+h1 {
+    color: $cream;
+    font-family: 'british';
+    font-size: 60pt;
+    font-weight: normal;
+    line-height: 70pt;
+}
+
+h2 {
+    color: $cream;
+    font-family: 'british';
+    font-weight: normal;
+    font-size: 53pt;
+}
+
+@for $i from 3 through 5 {
+    h#{$i} {
+        color: $cream;
+        font-family: 'Raleway';
+        font-size: 50pt / $i;
+        font-weight: bold;
+    }
+}
+
+
+
+hr{
+    background: url('../img/hr.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 67px;
+    border: 0;
+    position: relative;
+
+}
+
+#services, #stones, #amulets {
+    background-image: url('../img/bgservices.png');    
+    background-position: center;
+    background-color: $light-violet;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.contentBox {
+    max-width: 600px;
+    margin: 30px;
+  }
+
+  footer {
+    background-color: $light-violet;
+    color: #5e536b;
+    text-align: center;
+    padding: 35px;
+}
+
+
+.socialIcon {
+   height: 30px;
+   margin-right:0.5em;
+
+}
