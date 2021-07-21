@@ -6,7 +6,7 @@
     "servimg servimg"
     "servh2 servh2"
     "servp servp";
-    grid-template-rows: 40% 35% 20%;
+    grid-template-rows: 25% 45% 20%;
     grid-template-columns:40% 40%;
     grid-row-gap:25px;
     justify-content: center;
@@ -17,8 +17,6 @@
     grid-area: servh2;
     min-height: 10vh;
     padding-top: 0vh;
-    justify-self: center;
-    align-self: center;
 }
 
 .serviceImg {
@@ -29,7 +27,6 @@
 
 .serviceP {
     grid-area: servp;
-    align-self: center;
     overflow: hidden;
 }
 
