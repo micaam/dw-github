@@ -17,7 +17,7 @@
   /*big*/
 
   .popup__bodyBig {
-    width: 78%;
+    width: 85%;
     height: 87vh;
     padding: 10px;
     border-radius: 15px;
@@ -27,9 +27,22 @@
     margin-top: 11vh;
     text-align: center;
     .popup__contentBig {
-        transform: translate(-10%) rotateZ(90deg);
+        transform: translate(-0%) rotateZ(90deg);
         
     }  }  
+
+    .popup__contentBig {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      padding: 10px;
+      margin-top: 22vh;
+      .gallery--img {
+        width: 500px;
+      }
+    }
  
 
   .popup__closeBig
@@ -43,16 +56,9 @@
     color: #fff;
   }
 
-  .popup__contentBig {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 10px;
-    margin-top: 22vh;
+  
 
-}
+
 
 /*small*/
 

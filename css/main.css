@@ -140,6 +140,10 @@ footer {
   background-position: center;
   text-align: center; }
 
+#pick {
+  background-image: url(../img/bgcard.png);
+  background-position: center; }
+
 #error {
   min-height: 90vh; }
 
@@ -178,7 +182,7 @@ footer {
 .rolGrid {
   display: grid;
   grid-template-areas: "rolimg rolimg"  "rolh2 rolh2" "rolp rolp" "roltable roltable";
-  grid-template-rows: 23% 15% 42% 15%;
+  grid-template-rows: 23% 15% 47% 15%;
   grid-template-columns: 40% 40%;
   grid-row-gap: 25px;
   justify-content: center; }
@@ -297,6 +301,9 @@ footer {
   .flexboxGal video {
     margin-bottom: 20px; }
 
+.gallery--video {
+  width: 100%; }
+
 #objectsInfo {
   text-align: center;
   padding: 60px;
@@ -368,7 +375,7 @@ footer {
 
 /*big*/
 .popup__bodyBig {
-  width: 78%;
+  width: 85%;
   height: 87vh;
   padding: 10px;
   border-radius: 15px;
@@ -378,16 +385,7 @@ footer {
   margin-top: 11vh;
   text-align: center; }
   .popup__bodyBig .popup__contentBig {
-    transform: translate(-10%) rotateZ(90deg); }
-
-.popup__closeBig {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff; }
+    transform: translate(0%) rotateZ(90deg); }
 
 .popup__contentBig {
   display: flex;
@@ -397,6 +395,17 @@ footer {
   flex-wrap: nowrap;
   padding: 10px;
   margin-top: 22vh; }
+  .popup__contentBig .gallery--img {
+    width: 500px; }
+
+.popup__closeBig {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff; }
 
 /*small*/
 .popup__bodySmall {
@@ -627,7 +636,50 @@ footer {
     #objectsHome h1 {
       margin-top: 10vh; }
   .general__img {
-    max-height: 50vh; } }
+    max-height: 50vh; }
+  /*GALLERY*/
+  .popup__bodyBig {
+    width: 87%;
+    height: 75vh;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2a233a;
+    position: relative;
+    margin: 2%;
+    margin-top: 11vh;
+    text-align: center; }
+    .popup__bodyBig .popup__contentBig {
+      transform: translate(0%) rotateZ(90deg); }
+  .popup__contentBig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin-top: 19vh; }
+    .popup__contentBig .gallery--img {
+      width: 650px;
+      margin: 10px; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /*IPAD PRO*/
+  /*POPUP GALLERY*/
+  .popup__bodyBig {
+    width: 87%;
+    height: 87vh;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2a233a;
+    position: relative;
+    margin: 2% auto;
+    margin-top: 11vh;
+    text-align: center; }
+  .popup__contentBig {
+    padding: 20px;
+    width: 100%; }
+    .popup__contentBig .gallery--img {
+      width: 1000px; } }
 
 @media only screen and (min-width: 1370px) {
   /*FULL SCREEN HOME*/
@@ -725,6 +777,8 @@ footer {
   .popup__contentBig {
     margin-top: 0vh;
     width: 100%; }
+    .popup__contentBig .gallery--img {
+      width: 90%; }
   .popup__bodyBig .popup__contentBig {
     transform: rotateZ(0deg); }
   .popup__closeBig {

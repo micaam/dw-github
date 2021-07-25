@@ -3,7 +3,7 @@
 
     /*HOME*/
 
-    #home {
+      #home {
         
     height: 80vh;
     }
@@ -100,6 +100,70 @@
     .general__img {
         max-height: 50vh;
     }
+
+
+    /*GALLERY*/
+
+
+
+
+    .popup__bodyBig {
+        width: 87%;
+        height: 75vh;
+        padding: 10px;
+        border-radius: 15px;
+        background: $light-violet;
+        position: relative;
+        margin: 2%;
+        margin-top: 11vh;
+        text-align: center;
+        .popup__contentBig {
+            transform: translate(-0%) rotateZ(90deg);
+            
+        }  }  
+    
+        .popup__contentBig {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap;
+          padding: 0px;
+          margin-top: 19vh;
+          .gallery--img {
+            width: 650px;
+            margin: 10px;
+          }
+        }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /*IPAD PRO*/
+
+    /*POPUP GALLERY*/
+    .popup__bodyBig {
+        width: 87%;
+        height: 87vh;
+        padding: 10px;
+        border-radius: 15px;
+        background: $light-violet;
+        position: relative;
+        margin: 2% auto;
+        margin-top: 11vh;
+        text-align: center;      
+    
+      }
+
+      .popup__contentBig {
+          padding: 20px;
+        width: 100%;
+        .gallery--img {
+            width: 1000px;
+          }
+
+      }
+
 
 }
 
@@ -261,6 +325,9 @@ display: none;
       .popup__contentBig {
         margin-top: 0vh;
         width: 100%;
+        .gallery--img {
+            width: 90%;
+          }
 
       }
 
