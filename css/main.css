@@ -81,15 +81,6 @@ footer {
 .footer--img {
   margin-bottom: 25px; }
 
-/*header*/
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1;
-  top: 0px;
-  background-color: #241b33; }
-
-/*BOOTSTRAP NAV*/
 /* container */
 .container,
 .container-fluid,
@@ -602,7 +593,14 @@ footer {
 .navbar-light .navbar-toggler-icon {
   background-image: url("../img/menu.svg"); }
 
-/* MY HEADER */
+/*header*/
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  background-color: #241b33; }
+
 .navList {
   list-style: none;
   font-weight: bold; }
