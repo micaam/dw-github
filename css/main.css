@@ -78,6 +78,9 @@ footer {
   height: 30px;
   margin-right: 0.5em; }
 
+.footer--img {
+  margin-bottom: 25px; }
+
 /*header*/
 .sticky {
   position: -webkit-sticky;
@@ -143,6 +146,9 @@ footer {
 #pick {
   background-image: url(../img/bgcard.png);
   background-position: center; }
+
+.home__pick--div {
+  display: inline-block; }
 
 #error {
   min-height: 90vh; }
@@ -314,47 +320,12 @@ footer {
   #objectsHome h1 {
     margin-top: 15vh; }
 
-.rosequartz {
-  background-image: url("../img/rosequartz.jpg");
+.objects--box {
   height: 350px;
   width: 350px;
   margin: 20px;
-  border-radius: 25px; }
-
-.amethyst {
-  background-image: url("../img/amethyst.jpg");
-  height: 350px;
-  width: 350px;
-  margin: 20px;
-  border-radius: 25px; }
-
-.jade {
-  background-image: url("../img/jade.jpg");
-  height: 350px;
-  width: 350px;
-  margin: 20px;
-  border-radius: 25px; }
-
-.snake {
-  background-image: url("../img/snake.jpg");
-  height: 350px;
-  width: 350px;
-  margin: 20px;
-  border-radius: 25px; }
-
-.bird {
-  background-image: url("../img/bird.jpg");
-  height: 350px;
-  width: 350px;
-  margin: 20px;
-  border-radius: 25px; }
-
-.dreamcatcher {
-  background-image: url("../img/dreamcatcher.jpg");
-  height: 350px;
-  width: 350px;
-  margin: 20px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  overflow: hidden; }
 
 #location iframe {
   border-radius: 25px; }
@@ -625,7 +596,7 @@ footer {
     align-self: center; }
   /*GENERAL*/
   .divBar {
-    display: inline; }
+    display: inline-block; }
   .card__back {
     min-height: 250px; }
   #services, #rol {

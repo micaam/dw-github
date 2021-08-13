@@ -11,15 +11,14 @@
     }
 }
 
-@each $objeto in rosequartz, amethyst, jade, snake, bird, dreamcatcher {
-    .#{$objeto} {
-        background-image: url('../img/#{$objeto}.jpg');
+.objects--box {
         height: 350px;
         width: 350px;
         margin: 20px;
         border-radius: 25px;
+        overflow: hidden;
     }
-}
+
 
 #location {
     iframe {
