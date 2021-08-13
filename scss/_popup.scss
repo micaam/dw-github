@@ -67,15 +67,15 @@
     height: 85vh;
     padding: 30px;
     border-radius: 15px;
-    background: rgb(247, 247, 247);
+    background: $dark-violet;
     position: relative;
     margin: 2% auto;
     margin-top: 11vh;
     text-align: center;
-    color: #000;
+    color: #fff;
     overflow: scroll;
     h2{
-        color: $dark-violet;
+        color: $cream;
     }
     img{
         max-height: 50vh;
@@ -91,7 +91,7 @@
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: $dark-violet;
+    color: $cream;
   }
 
 .popup__contentSmall {
@@ -115,15 +115,15 @@
   height: 85vh;
   padding: 30px;
   border-radius: 15px;
-  background: rgb(247, 247, 247);
+  background: $dark-violet;
   position: relative;
   margin: 2% 3%;
   margin-top: 11vh;
   text-align: center;
-  color: #000;
+  color: #fff;
   overflow: scroll;
   h2{
-      color: $dark-violet;
+      color: $cream;
   }
   img{
       max-height: 50vh;
@@ -139,7 +139,7 @@
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: $dark-violet;
+  color: $cream;
 }
 
 .popup__contentSmall--objects {

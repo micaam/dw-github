@@ -1,4 +1,11 @@
 
+@media only screen and (max-width:699px){
+    .divBar {
+        display: none;
+    }
+}
+
+
 @media only screen and (min-width: 700px) and (max-width: 1366px){
 
     /*HOME*/
@@ -265,6 +272,9 @@
         max-height: 75vh;
     }
 
+    .gallery--video {
+        padding: 30px;
+    }
 
     #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy, #gallery{
         margin-top: 100px;

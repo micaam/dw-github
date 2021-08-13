@@ -11,18 +11,11 @@
     justify-content: space-around;
     img {
         margin-top: 30px;
-    } 
-    .col-4 {
-        overflow: hidden;
+    height: 90%;
     }
-    img {
-        height: 90%;
-    }
-    video {
-        margin-bottom: 20px;
-     }
 }
 
 .gallery--video {
+    padding: 0;
     width: 100%;
 }
