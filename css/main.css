@@ -68,6 +68,9 @@ hr {
   max-width: 600px;
   margin: 30px; }
 
+#aboutme {
+  margin-bottom: 100px; }
+
 footer {
   background-color: #2a233a;
   color: #5e536b;
@@ -804,17 +807,16 @@ footer {
 #gallery {
   display: block;
   max-width: 1450px;
-  margin-top: 0;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 100px; }
 
 .flexboxGal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .flexboxGal img {
-    margin-top: 20px;
-    height: 90%; }
+    margin-top: 20px; }
 
 .galleryVideo {
   padding: 0;
@@ -1126,8 +1128,7 @@ footer {
     max-height: 50vh; }
   /*GALLERY*/
   .galleryVideo {
-    padding: 10px;
-    width: 98%; }
+    padding: 10px; }
   .popupBodyBig {
     width: 87%;
     height: 75vh;
