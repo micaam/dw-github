@@ -68,7 +68,8 @@ hr {
   max-width: 600px;
   margin: 30px; }
 
-#aboutme {
+#aboutme, #energy {
+  margin-top: 25px;
   margin-bottom: 100px; }
 
 footer {
@@ -809,7 +810,8 @@ footer {
   max-width: 1450px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding: 20px; }
 
 .flexboxGal {
   display: flex;
@@ -820,6 +822,9 @@ footer {
 
 .galleryVideo {
   padding: 0;
+  width: 100%; }
+
+.galleryImg {
   width: 100%; }
 
 #objectsInfo {
@@ -859,13 +864,13 @@ footer {
 
 /*big*/
 .popupBodyBig {
-  width: 85%;
-  height: 87vh;
+  width: 87%;
+  height: 84vh;
   padding: 10px;
   border-radius: 15px;
   background: #2a233a;
   position: relative;
-  margin: 2%;
+  margin: 2% auto;
   margin-top: 11vh;
   text-align: center; }
   .popupBodyBig .popupContentBig {
@@ -1066,6 +1071,40 @@ footer {
     transform: scale(1.03);
     opacity: 1; } }
 
+@media only screen and (max-height: 640px) {
+  #logo {
+    max-height: 30px; }
+  .popupBodyBig {
+    width: 87%;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2a233a;
+    position: relative;
+    margin: 2% auto;
+    margin-top: 13vh;
+    text-align: center; }
+    .popupBodyBig .popupContentBig {
+      transform: translate(0%) rotateZ(90deg); }
+  .popupContentBig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 19vh; }
+    .popupContentBig .galleryImg {
+      width: 450px; }
+  .popupCloseBig {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff; } }
+
 @media only screen and (max-width: 699px) {
   .divBar {
     display: none; } }
@@ -1082,6 +1121,8 @@ footer {
   .homeSubtext {
     font-size: 30pt;
     margin: 1em; }
+  .divBar {
+    display: none; }
   .formTextarea {
     width: 615px; }
   /*GRIDS*/
@@ -1113,8 +1154,6 @@ footer {
   .rolH2 {
     align-self: center; }
   /*GENERAL*/
-  .divBar {
-    display: inline-block; }
   .cardBack {
     min-height: 250px; }
   #services, #rol {
@@ -1127,11 +1166,11 @@ footer {
   .generalImg {
     max-height: 50vh; }
   /*GALLERY*/
-  .galleryVideo {
-    padding: 10px; }
+  .galleryImg {
+    width: 350px; }
   .popupBodyBig {
     width: 87%;
-    height: 75vh;
+    height: 83vh;
     padding: 10px;
     border-radius: 15px;
     background: #2a233a;
@@ -1148,13 +1187,17 @@ footer {
     align-items: center;
     flex-wrap: nowrap;
     padding: 0px;
-    margin-top: 19vh; }
+    margin-top: 20vh; }
     .popupContentBig .galleryImg {
-      width: 650px;
+      width: 750px;
       margin: 10px; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /*IPAD PRO*/
+  .galleryImg {
+    width: 310px; }
+  .navList li {
+    padding: 15px; }
   /*POPUP GALLERY*/
   .popupBodyBig {
     width: 87%;
@@ -1164,13 +1207,13 @@ footer {
     background: #2a233a;
     position: relative;
     margin: 2% auto;
-    margin-top: 11vh;
+    margin-top: 8vh;
     text-align: center; }
   .popupContentBig {
     padding: 20px;
     width: 100%; }
     .popupContentBig .galleryImg {
-      width: 1000px; } }
+      width: 1030px; } }
 
 @media only screen and (min-width: 1370px) {
   /*FULL SCREEN HOME*/
@@ -1224,9 +1267,6 @@ footer {
       margin-top: 0vh; }
   .generalImg {
     max-height: 75vh; }
-  .galleryVideo {
-    padding: 10px;
-    width: 98%; }
   #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy {
     margin-top: 100px;
     margin-bottom: 100px; }
@@ -1263,7 +1303,7 @@ footer {
     display: none; }
   .popupBodyBig {
     width: 87%;
-    height: 87vh;
+    height: 85vh;
     padding: 10px;
     border-radius: 15px;
     background: #2a233a;
@@ -1275,7 +1315,7 @@ footer {
     margin-top: 0vh;
     width: 100%; }
     .popupContentBig .galleryImg {
-      width: 90%; }
+      width: 87%; }
   .popupBodyBig .popupContentBig {
     transform: rotateZ(0deg); }
   .popupCloseBig {

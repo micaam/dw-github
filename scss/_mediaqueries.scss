@@ -1,4 +1,50 @@
 
+@media only screen and (max-height:640px)
+{
+    #logo {
+        max-height: 30px;
+    }
+    .popupBodyBig {
+        width: 87%;
+        height: 80vh;
+        padding: 10px;
+        border-radius: 15px;
+        background: $light-violet;
+        position: relative;
+        margin: 2% auto;
+        margin-top: 13vh;
+        text-align: center;
+        .popupContentBig {
+            transform: translate(-0%) rotateZ(90deg);
+            
+        }  }  
+    
+        .popupContentBig {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap;
+          padding: 10px;
+          margin-top: 19vh;
+          .galleryImg {
+            width: 450px;
+          }
+        }
+
+        .popupCloseBig
+        {
+          position: absolute;
+          top: 10px;
+          right: 25px;
+          font-size: 30px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #fff;
+        }
+
+}
+
 @media only screen and (max-width:699px){
     .divBar {
         display: none;
@@ -27,6 +73,10 @@
     .homeSubtext{
         font-size: 30pt;
         margin: 1em;
+    }
+
+    .divBar {
+        display: none;
     }
 
     .formTextarea{
@@ -84,9 +134,6 @@
 
     /*GENERAL*/
 
-    .divBar {
-        display: inline-block;
-    }
     
     .cardBack {
         min-height: 250px;
@@ -112,13 +159,13 @@
     /*GALLERY*/
 
 
-    .galleryVideo {
-        padding: 10px;
+    .galleryImg {
+        width: 350px;
     }
 
     .popupBodyBig {
         width: 87%;
-        height: 75vh;
+        height: 83vh;
         padding: 10px;
         border-radius: 15px;
         background: $light-violet;
@@ -138,9 +185,9 @@
           align-items: center;
           flex-wrap: nowrap;
           padding: 0px;
-          margin-top: 19vh;
+          margin-top: 20vh;
           .galleryImg {
-            width: 650px;
+            width: 750px;
             margin: 10px;
           }
         }
@@ -150,7 +197,18 @@
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
     /*IPAD PRO*/
 
+    .galleryImg {
+        width: 310px;
+    }
+
+    .navList {
+        li {
+            padding: 15px;
+        }
+    }
+
     /*POPUP GALLERY*/
+    
     .popupBodyBig {
         width: 87%;
         height: 87vh;
@@ -159,7 +217,7 @@
         background: $light-violet;
         position: relative;
         margin: 2% auto;
-        margin-top: 11vh;
+        margin-top: 8vh;
         text-align: center;      
     
       }
@@ -168,7 +226,7 @@
           padding: 20px;
         width: 100%;
         .galleryImg {
-            width: 1000px;
+            width: 1030px;
           }
 
       }
@@ -185,6 +243,7 @@
         height: 40px;
     }
 
+    
     h1 {        
         font-size: 120pt;        
         font-weight: 300;
@@ -274,10 +333,7 @@
         max-height: 75vh;
     }
 
-    .galleryVideo {
-        padding: 10px;
-        width: 98%;
-    }
+    
 
     #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy{
         margin-top: 100px;
@@ -327,7 +383,7 @@ display: none;
 
       .popupBodyBig {
         width: 87%;
-        height: 87vh;
+        height: 85vh;
         padding: 10px;
         border-radius: 15px;
         background: $light-violet;
@@ -342,7 +398,7 @@ display: none;
         margin-top: 0vh;
         width: 100%;
         .galleryImg {
-            width: 90%;
+            width: 87%;
           }
 
       }
