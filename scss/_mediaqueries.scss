@@ -1,9 +1,7 @@
 
-@media only screen and (max-height:640px)
-{
-    #logo {
-        max-height: 30px;
-    }
+@media only screen and (max-height:640px){
+    
+    
     .popupBodyBig {
         width: 87%;
         height: 80vh;
@@ -45,10 +43,49 @@
 
 }
 
+@media only screen and (max-width:320px){
+    h1 {
+        font-size: 58pt;
+    }
+
+    h2 {
+        font-size: 45pt;
+    }
+
+    .bigH2 {
+        font-size: 48pt;
+    }
+}
+
 @media only screen and (max-width:699px){
     .divBar {
         display: none;
     }
+
+    #logo {
+        max-height: 28px;
+    }
+    fieldset {
+        width: 100%;
+        margin:5% auto;
+    }
+   .formInputBox, .formInputStyle {
+       width: 90%;
+   }
+
+    .contactField, .formTextarea {
+        width: 85%;
+    }
+
+    .flexboxForm {
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+
 }
 
 

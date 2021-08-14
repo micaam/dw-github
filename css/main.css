@@ -760,6 +760,13 @@ footer {
   .form h3 {
     margin-bottom: 10px; }
 
+.flexboxForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
 .formInputStyle {
   margin-bottom: 20px;
   background-color: #2a233a;
@@ -1072,8 +1079,6 @@ footer {
     opacity: 1; } }
 
 @media only screen and (max-height: 640px) {
-  #logo {
-    max-height: 30px; }
   .popupBodyBig {
     width: 87%;
     height: 80vh;
@@ -1105,9 +1110,32 @@ footer {
     text-decoration: none;
     color: #fff; } }
 
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 58pt; }
+  h2 {
+    font-size: 45pt; }
+  .bigH2 {
+    font-size: 48pt; } }
+
 @media only screen and (max-width: 699px) {
   .divBar {
-    display: none; } }
+    display: none; }
+  #logo {
+    max-height: 28px; }
+  fieldset {
+    width: 100%;
+    margin: 5% auto; }
+  .formInputBox, .formInputStyle {
+    width: 90%; }
+  .contactField, .formTextarea {
+    width: 85%; }
+  .flexboxForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; } }
 
 @media only screen and (min-width: 700px) and (max-width: 1366px) {
   /*HOME*/

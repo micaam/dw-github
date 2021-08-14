@@ -119,6 +119,13 @@
     
 }
 
+.flexboxForm {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
 .formInputStyle {
     margin-bottom: 20px;
