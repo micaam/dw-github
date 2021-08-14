@@ -28,14 +28,14 @@ h1 {
     font-family: 'british';
     font-size: 60pt;
     font-weight: normal;
-    line-height: 70pt;
+    line-height: 67pt;
 }
 
 h2 {
     color: $cream;
     font-family: 'british';
     font-weight: normal;
-    font-size: 53pt;
+    font-size: 51pt;
 }
 
 @for $i from 3 through 5 {
@@ -53,7 +53,7 @@ hr{
     background: url('../img/hr.png') no-repeat top center;
     background-size: contain;
     display: block;
-    height: 67px;
+    height: 65px;
     border: 0;
     position: relative;
 
@@ -86,6 +86,6 @@ hr{
 
 }
 
-.footer--img {
+.footerImg {
     margin-bottom: 25px;
 }

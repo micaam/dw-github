@@ -50,8 +50,8 @@
 
     <section id="home">
       <div>
-        <h1 class="home__title focus-in">La energía del universo</h1>
-        <h2 class="home__subtext focus-in-delay">alineada a tu destino</h2>
+        <h1 class="homeTitle focus-in">La energía del universo</h1>
+        <h2 class="homeSubtext focus-in-delay">alineada a tu destino</h2>
       </div>
     </section>
 
@@ -113,13 +113,13 @@
 
     <section id="pick">
       
-        <div class="home__pick--div divBar"><img src="img/pick1.png" alt="-"></div><h2 class="home__pick--div">Elige una carta</h2><div class="home__pick--div divBar"><img src="img/pick2.png" alt="-"></div>
+        <div class="homePickDiv divBar"><img src="img/pick1.png" alt="-"></div><h2 class="homePickDiv">Elige una carta</h2><div class="homePickDiv divBar"><img src="img/pick2.png" alt="-"></div>
       
         <div class="cards">
-          <a href="#card1"><img class="card__back scale-in-center" src="img/c0.png" alt="1" /></a>
-          <a href="#card2"><img class="card__back scale-in-center" src="img/c0.png" alt="2" /></a>
-          <a href="#card3"><img class="card__back scale-in-center"  src="img/c0.png" alt="3" /></a>
-          <a href="#card4"><img class="card__back scale-in-center" src="img/c0.png" alt="4" /></a></div>
+          <a href="#card1"><img class="cardBack scale-in-center" src="img/c0.png" alt="1" /></a>
+          <a href="#card2"><img class="cardBack scale-in-center" src="img/c0.png" alt="2" /></a>
+          <a href="#card3"><img class="cardBack scale-in-center"  src="img/c0.png" alt="3" /></a>
+          <a href="#card4"><img class="cardBack scale-in-center" src="img/c0.png" alt="4" /></a></div>
       
     </section>
     <hr />
@@ -152,32 +152,32 @@
     <section class="form focus-in">
       <form action="php/archivo.php">
         <fieldset class="contactField flexboxRow">
-          <div class="form__inputBox"><h3><label for="nombre">Nombre y Apellido</label></h3>
-          <input type="text" name="nombreapellido" placeholder="Nombre Apellido" class="form__inputStyle"/>
+          <div class="formInputBox"><h3><label for="nombre">Nombre y Apellido</label></h3>
+          <input type="text" name="nombreapellido" placeholder="Nombre Apellido" class="formInputStyle"/>
         </div>
-        <div class="form__inputBox">
+        <div class="formInputBox">
           <h3><label for="mail">Mail</label></h3>
-          <input type="email" name="mail" placeholder="email@example.com" class="form__inputStyle" />
+          <input type="email" name="mail" placeholder="email@example.com" class="formInputStyle" />
         </div>
-        <div class="form__inputBox">
+        <div class="formInputBox">
           <h3><label for="genero">Género</label></h3>
           <div class="flexboxRow">
-          <div class="form__radio"><input type="radio" name="genero" value="Femenino" /> Femenino</div>
-          <div class="form__radio"><input type="radio" name="genero" value="Masculino" /> Masculino</div>
-          <div class="form__radio"><input type="radio" name="genero" value="Otro" /> Otro</div>
+          <div class="formRadio"><input type="radio" name="genero" value="Femenino" /> Femenino</div>
+          <div class="formRadio"><input type="radio" name="genero" value="Masculino" /> Masculino</div>
+          <div class="formRadio"><input type="radio" name="genero" value="Otro" /> Otro</div>
         </div>
         </div>
-        <div class="form__inputBox">
+        <div class="formInputBox">
 
         <h3><label for="sede">Sede</label></h3>
-          <select name="sede" id="" class="form__inputStyle">
+          <select name="sede" id="" class="formInputStyle">
             <option value="palermo">Palermo</option>
             <option value="belgrano">Belgrano</option></select
           ><br />
         </div>
         <div>
         <h3><label for="consulta">Mensaje</label></h3>
-          <textarea class="form__textarea" name="consulta" id="" cols="30" rows="10"></textarea
+          <textarea class="formTextarea" name="consulta" id="" cols="30" rows="10"></textarea
           ><br />
 
           <input type="checkbox" name="llamar" value="1" /> Quiero que me
@@ -195,9 +195,9 @@
       <!--POPUPS-->
 
       <div id="card1" class="overlay">
-        <div class="popup__bodySmall">
-            <a class="popup__closeSmall" href="#pick">&times;</a>
-            <div class="popup__contentSmall">
+        <div class="popupBodySmall">
+            <a class="popupCloseSmall" href="#pick">&times;</a>
+            <div class="popupContentSmall">
                 <div><img src="img/card1.png" alt="Justicia"></div>
                 <div class="contentBox">
                 <h2>La Justicia</h2>
@@ -208,9 +208,9 @@
     </div>
 
     <div id="card2" class="overlay">
-        <div class="popup__bodySmall">
-            <a class="popup__closeSmall" href="#pick">&times;</a>
-            <div class="popup__contentSmall">
+        <div class="popupBodySmall">
+            <a class="popupCloseSmall" href="#pick">&times;</a>
+            <div class="popupContentSmall">
                 <img src="img/card2.png" alt="Carta El Mago " width="50%">
                 <div class="contentBox"><h2>El Mago</h2>
                 <p>El Mago es una carta muy positiva que indica energía, salud y una gran fuerza de voluntad.<br>
@@ -221,9 +221,9 @@
     </div>
 
     <div id="card3" class="overlay">
-        <div class="popup__bodySmall">
-            <a class="popup__closeSmall" href="#pick">&times;</a>
-            <div class="popup__contentSmall">
+        <div class="popupBodySmall">
+            <a class="popupCloseSmall" href="#pick">&times;</a>
+            <div class="popupContentSmall">
                 <div><img src="img/card3.png" alt="Carta La Estrella" width="50%"></div>
                 <div class="contentBox"><h2>La Estrella</h2>
                 <p>Esta es una carta muy positiva y alentadora, simboliza la esperanza, la espiritualidad, la renovación interna, la inspiración y serenidad.
@@ -234,9 +234,9 @@
     </div>
 
     <div id="card4" class="overlay">
-        <div class="popup__bodySmall">
-            <a class="popup__closeSmall" href="#pick">&times;</a>
-            <div class="popup__contentSmall">
+        <div class="popupBodySmall">
+            <a class="popupCloseSmall" href="#pick">&times;</a>
+            <div class="popupContentSmall">
                 <div><img src="img/card4.png" alt="Carta El Mundo" width="50%"></div>
                 <div class="contentBox"><h2>El Mundo</h2>
                <p>Finalización de procesos, integración con la gente y lugares de vida, la realización, los viajes. Es una carta de muchísimo éxito, de logros y realizaciones, La victoria te acompaña como también la suerte.<br>
@@ -248,7 +248,7 @@
 
 
     <footer>
-      <img class="footer--img" src="img/byebye.png" />
+      <img class="footerImg" src="img/byebye.png" />
       <p><small>© Alinee Divination, 2021. Todos los derechos reservados.
         Políticas de privacidad - Políticas de cookies - Aviso Legal</small></p>
     </footer>

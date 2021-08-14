@@ -16,23 +16,25 @@
     li {
         margin-left: 30px;
         padding: 25px;
+        &:hover {
+            background-color: $light-violet;
+            .innerNavList {
+                display: block;
+                position: absolute;
+                margin-top: 25px;
+                margin-left: -25px;
+            }
     } 
-    li:hover {
-        background-color: $light-violet;
-        .innerNavList {
-            display: block;
-            position: absolute;
-            margin-top: 25px;
-            margin-left: -25px;
-        }
+    
     }
     a{
         color: #fff;
         text-decoration: none;
+        &:hover {
+            color: $cream;
+        }
     }
-    a:hover {
-        color: $cream;
-    }
+    
 }
 
 .innerNavList {

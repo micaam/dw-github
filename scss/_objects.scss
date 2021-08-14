@@ -11,10 +11,10 @@
     }
 }
 
-.objects--box {
+.objectsBox {
         height: 350px;
         width: 350px;
-        margin: 20px;
+        margin: 10px;
         border-radius: 25px;
         overflow: hidden;
     }
@@ -23,5 +23,6 @@
 #location {
     iframe {
         border-radius: 25px;
+        margin:0px;
     }
 }

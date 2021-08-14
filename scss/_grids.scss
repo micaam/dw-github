@@ -103,7 +103,8 @@
     border: none;
     border-radius: 15px;
     background-color:  $light-violet;
-    padding: 30px;
+    padding: 20px;
+    margin: 5px;
 }
 
 .form {
@@ -119,7 +120,7 @@
 }
 
 
-.form__inputStyle {
+.formInputStyle {
     margin-bottom: 20px;
     background-color: $light-violet;
     border: solid 2px $cream;
@@ -131,20 +132,20 @@
 }
 
 
-.form__inputBox {
+.formInputBox {
     width: 300px;
     min-height: 30px;
     margin: 10px;
 }
 
 
-.form__radio {
+.formRadio {
     max-width: 150px;
     font-size: 12pt;
     margin-right: 15px;
 }
 
-.form__textarea{
+.formTextarea{
     background-color:  $light-violet;
     width: 300px;
     border: solid 2px $cream;

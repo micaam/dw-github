@@ -23,13 +23,13 @@ h1 {
   font-family: 'british';
   font-size: 60pt;
   font-weight: normal;
-  line-height: 70pt; }
+  line-height: 67pt; }
 
 h2 {
   color: #f9d7af;
   font-family: 'british';
   font-weight: normal;
-  font-size: 53pt; }
+  font-size: 51pt; }
 
 h3 {
   color: #f9d7af;
@@ -53,7 +53,7 @@ hr {
   background: url("../img/hr.png") no-repeat top center;
   background-size: contain;
   display: block;
-  height: 67px;
+  height: 65px;
   border: 0;
   position: relative; }
 
@@ -78,7 +78,7 @@ footer {
   height: 30px;
   margin-right: 0.5em; }
 
-.footer--img {
+.footerImg {
   margin-bottom: 25px; }
 
 /* container */
@@ -607,18 +607,18 @@ footer {
   .navList li {
     margin-left: 30px;
     padding: 25px; }
-  .navList li:hover {
-    background-color: #2a233a; }
-    .navList li:hover .innerNavList {
-      display: block;
-      position: absolute;
-      margin-top: 25px;
-      margin-left: -25px; }
+    .navList li:hover {
+      background-color: #2a233a; }
+      .navList li:hover .innerNavList {
+        display: block;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: -25px; }
   .navList a {
     color: #fff;
     text-decoration: none; }
-  .navList a:hover {
-    color: #f9d7af; }
+    .navList a:hover {
+      color: #f9d7af; }
 
 .innerNavList {
   list-style: none;
@@ -636,10 +636,10 @@ footer {
   background-position: center;
   text-align: center; }
 
-.home__title {
+.homeTitle {
   margin-bottom: 0.5em; }
 
-.home__subtext {
+.homeSubtext {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 9px;
   font-size: 20pt;
@@ -659,13 +659,13 @@ footer {
   background-image: url(../img/bgcard.png);
   background-position: center; }
 
-.home__pick--div {
+.homePickDiv {
   display: inline-block; }
 
 #error {
   min-height: 90vh; }
 
-.general__img {
+.generalImg {
   max-height: 40vh; }
 
 /*--servgrid--*/
@@ -744,7 +744,8 @@ footer {
   border: none;
   border-radius: 15px;
   background-color: #2a233a;
-  padding: 30px; }
+  padding: 20px;
+  margin: 5px; }
 
 .form {
   display: block;
@@ -755,7 +756,7 @@ footer {
   .form h3 {
     margin-bottom: 10px; }
 
-.form__inputStyle {
+.formInputStyle {
   margin-bottom: 20px;
   background-color: #2a233a;
   border: solid 2px #f9d7af;
@@ -764,17 +765,17 @@ footer {
   color: #fff;
   padding: 5px; }
 
-.form__inputBox {
+.formInputBox {
   width: 300px;
   min-height: 30px;
   margin: 10px; }
 
-.form__radio {
+.formRadio {
   max-width: 150px;
   font-size: 12pt;
   margin-right: 15px; }
 
-.form__textarea {
+.formTextarea {
   background-color: #2a233a;
   width: 300px;
   border: solid 2px #f9d7af;
@@ -803,6 +804,7 @@ footer {
 #gallery {
   display: block;
   max-width: 1450px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto; }
 
@@ -811,10 +813,10 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around; }
   .flexboxGal img {
-    margin-top: 30px;
+    margin-top: 20px;
     height: 90%; }
 
-.gallery--video {
+.galleryVideo {
   padding: 0;
   width: 100%; }
 
@@ -828,15 +830,16 @@ footer {
   #objectsHome h1 {
     margin-top: 15vh; }
 
-.objects--box {
+.objectsBox {
   height: 350px;
   width: 350px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 25px;
   overflow: hidden; }
 
 #location iframe {
-  border-radius: 25px; }
+  border-radius: 25px;
+  margin: 0px; }
 
 .overlay {
   position: fixed;
@@ -853,7 +856,7 @@ footer {
   opacity: 1; }
 
 /*big*/
-.popup__bodyBig {
+.popupBodyBig {
   width: 85%;
   height: 87vh;
   padding: 10px;
@@ -863,10 +866,10 @@ footer {
   margin: 2%;
   margin-top: 11vh;
   text-align: center; }
-  .popup__bodyBig .popup__contentBig {
+  .popupBodyBig .popupContentBig {
     transform: translate(0%) rotateZ(90deg); }
 
-.popup__contentBig {
+.popupContentBig {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -874,10 +877,10 @@ footer {
   flex-wrap: nowrap;
   padding: 10px;
   margin-top: 22vh; }
-  .popup__contentBig .gallery--img {
+  .popupContentBig .galleryImg {
     width: 500px; }
 
-.popup__closeBig {
+.popupCloseBig {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -887,9 +890,9 @@ footer {
   color: #fff; }
 
 /*small*/
-.popup__bodySmall {
-  width: 87%;
-  height: 85vh;
+.popupBodySmall {
+  width: 80%;
+  height: 80vh;
   padding: 30px;
   border-radius: 15px;
   background: #241b33;
@@ -899,13 +902,13 @@ footer {
   text-align: center;
   color: #fff;
   overflow: scroll; }
-  .popup__bodySmall h2 {
+  .popupBodySmall h2 {
     color: #f9d7af; }
-  .popup__bodySmall img {
+  .popupBodySmall img {
     max-height: 50vh;
     width: auto; }
 
-.popup__closeSmall {
+.popupCloseSmall {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -914,52 +917,53 @@ footer {
   text-decoration: none;
   color: #f9d7af; }
 
-.popup__contentSmall {
+.popupContentSmall {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  .popup__contentSmall img {
+  .popupContentSmall img {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 25px; }
 
 /*objects*/
-.popup__bodySmall--objects {
-  width: 70%;
-  height: 85vh;
+.popupBodySmallObjects {
+  width: 80%;
+  height: 80vh;
   padding: 30px;
   border-radius: 15px;
   background: #241b33;
   position: relative;
-  margin: 2% 3%;
+  margin: 2% 1%;
   margin-top: 11vh;
   text-align: center;
   color: #fff;
   overflow: scroll; }
-  .popup__bodySmall--objects h2 {
+  .popupBodySmallObjects h2 {
     color: #f9d7af; }
-  .popup__bodySmall--objects img {
-    max-height: 50vh;
+  .popupBodySmallObjects img {
+    margin-top: 20px;
+    max-height: 40vh;
     width: auto; }
 
-.popup__closeSmall--objects {
+.popupCloseSmallObjects {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 30px;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   color: #f9d7af; }
 
-.popup__contentSmall--objects {
+.popupContentSmallObjects {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  .popup__contentSmall--objects img {
+  .popupContentSmallObjects img {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 25px; }
@@ -1068,15 +1072,15 @@ footer {
   /*HOME*/
   #home {
     height: 80vh; }
-  .home__title {
+  .homeTitle {
     margin-bottom: 0.3em; }
   h1 {
     font-size: 90pt;
     line-height: 70pt; }
-  .home__subtext {
+  .homeSubtext {
     font-size: 30pt;
     margin: 1em; }
-  .form__textarea {
+  .formTextarea {
     width: 615px; }
   /*GRIDS*/
   .servGrid {
@@ -1109,7 +1113,7 @@ footer {
   /*GENERAL*/
   .divBar {
     display: inline-block; }
-  .card__back {
+  .cardBack {
     min-height: 250px; }
   #services, #rol {
     margin-top: 100px;
@@ -1118,22 +1122,25 @@ footer {
     height: 30vh; }
     #objectsHome h1 {
       margin-top: 10vh; }
-  .general__img {
+  .generalImg {
     max-height: 50vh; }
   /*GALLERY*/
-  .popup__bodyBig {
+  .galleryVideo {
+    padding: 10px;
+    width: 98%; }
+  .popupBodyBig {
     width: 87%;
     height: 75vh;
     padding: 10px;
     border-radius: 15px;
     background: #2a233a;
     position: relative;
-    margin: 2%;
+    margin: 2% auto;
     margin-top: 11vh;
     text-align: center; }
-    .popup__bodyBig .popup__contentBig {
+    .popupBodyBig .popupContentBig {
       transform: translate(0%) rotateZ(90deg); }
-  .popup__contentBig {
+  .popupContentBig {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1141,14 +1148,14 @@ footer {
     flex-wrap: nowrap;
     padding: 0px;
     margin-top: 19vh; }
-    .popup__contentBig .gallery--img {
+    .popupContentBig .galleryImg {
       width: 650px;
       margin: 10px; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /*IPAD PRO*/
   /*POPUP GALLERY*/
-  .popup__bodyBig {
+  .popupBodyBig {
     width: 87%;
     height: 87vh;
     padding: 10px;
@@ -1158,10 +1165,10 @@ footer {
     margin: 2% auto;
     margin-top: 11vh;
     text-align: center; }
-  .popup__contentBig {
+  .popupContentBig {
     padding: 20px;
     width: 100%; }
-    .popup__contentBig .gallery--img {
+    .popupContentBig .galleryImg {
       width: 1000px; } }
 
 @media only screen and (min-width: 1370px) {
@@ -1172,9 +1179,9 @@ footer {
     font-size: 120pt;
     font-weight: 300;
     margin-bottom: 0px; }
-  .home__title {
+  .homeTitle {
     margin: 0.3em; }
-  .home__subtext {
+  .homeSubtext {
     margin: 0;
     font-size: 40px; }
   /*FULL SCREEN SERVICES*/
@@ -1201,12 +1208,12 @@ footer {
     grid-column-gap: 30px;
     justify-content: center; }
   /*FULL SCREEN FORM*/
-  .form__textarea {
+  .formTextarea {
     width: 615px; }
   /*FULL SCREEN GENERAL*/
   h2 {
     font-size: 55pt; }
-  .card__back {
+  .cardBack {
     min-height: 600px; }
   .divBar {
     display: inline-block; }
@@ -1214,14 +1221,17 @@ footer {
     height: 50vh; }
     #objectsHome h1 {
       margin-top: 0vh; }
-  .general__img {
+  .generalImg {
     max-height: 75vh; }
-  .gallery--video {
-    padding: 30px; }
-  #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy, #gallery {
+  .galleryVideo {
+    padding: 10px;
+    width: 98%; }
+  #services, #rol, #pick, #contact, #stones, #amulets, #location, #aboutme, #energy {
     margin-top: 100px;
     margin-bottom: 100px; }
-  .popup__bodySmall {
+  .popupBodySmall {
+    height: 70vh;
+    margin: 2% auto;
     margin-top: 12vh;
     padding: 70px;
     text-align: left;
@@ -1229,12 +1239,13 @@ footer {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */ }
-    .popup__bodySmall img {
+    .popupBodySmall img {
       max-height: 70vh;
       width: auto; }
-  .popup__bodySmall::-webkit-scrollbar {
+  .popupBodySmall::-webkit-scrollbar {
     display: none; }
-  .popup__bodySmall--objects {
+  .popupBodySmallObjects {
+    height: 70vh;
     width: 87%;
     margin: 2% auto;
     margin-top: 12vh;
@@ -1244,12 +1255,12 @@ footer {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */ }
-    .popup__bodySmall--objects img {
+    .popupBodySmallObjects img {
       max-height: 70vh;
       width: auto; }
-  .popup__bodySmall--objects::-webkit-scrollbar {
+  .popupBodySmallObjects::-webkit-scrollbar {
     display: none; }
-  .popup__bodyBig {
+  .popupBodyBig {
     width: 87%;
     height: 87vh;
     padding: 10px;
@@ -1259,14 +1270,14 @@ footer {
     margin: 2% auto;
     margin-top: 11vh;
     text-align: center; }
-  .popup__contentBig {
+  .popupContentBig {
     margin-top: 0vh;
     width: 100%; }
-    .popup__contentBig .gallery--img {
+    .popupContentBig .galleryImg {
       width: 90%; }
-  .popup__bodyBig .popup__contentBig {
+  .popupBodyBig .popupContentBig {
     transform: rotateZ(0deg); }
-  .popup__closeBig {
+  .popupCloseBig {
     position: absolute;
     z-index: 1;
     top: 20px;
@@ -1282,13 +1293,13 @@ footer {
 .cards {
   margin: 60px; }
 
-.card__back {
+.cardBack {
   max-height: 210px; }
 
 #services, #rol {
   margin: 0px; }
 
-#pick, #contact, #stones, #amulets, #location, #aboutme, #energy, #gallery {
+#pick, #contact, #stones, #amulets {
   margin-top: 100px;
   margin-bottom: 100px; }
 
