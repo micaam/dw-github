@@ -135,15 +135,17 @@
     font-size: 16pt;
     color: #fff;
     padding: 5px;
+    max-width: 300px;
 
 }
 
 
 .formInputBox {
-    width: 300px;
+    width: 290px;
     min-height: 30px;
     margin: 10px;
 }
+
 
 
 .formRadio {
@@ -152,11 +154,23 @@
     margin-right: 15px;
 }
 
+.formConsultBox {
+    width: 100%;
+    max-width: 600px;
+}
+
 .formTextarea{
     background-color:  $light-violet;
-    width: 300px;
+    width: 100%;
+    max-width: 290px;
+    max-height: 120px;
     border: solid 2px $cream;
-    border-radius: 10px
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 15pt;
+    padding: 1%;
+    margin: 5px;
 }
 
 $btncolor: (

@@ -774,10 +774,11 @@ footer {
   border-radius: 10px;
   font-size: 16pt;
   color: #fff;
-  padding: 5px; }
+  padding: 5px;
+  max-width: 300px; }
 
 .formInputBox {
-  width: 300px;
+  width: 290px;
   min-height: 30px;
   margin: 10px; }
 
@@ -786,11 +787,22 @@ footer {
   font-size: 12pt;
   margin-right: 15px; }
 
+.formConsultBox {
+  width: 100%;
+  max-width: 600px; }
+
 .formTextarea {
   background-color: #2a233a;
-  width: 300px;
+  width: 100%;
+  max-width: 290px;
+  max-height: 120px;
   border: solid 2px #f9d7af;
-  border-radius: 10px; }
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 15pt;
+  padding: 1%;
+  margin: 5px; }
 
 .btn--enviar {
   background-color: #f8c885; }
@@ -1116,7 +1128,9 @@ footer {
   h2 {
     font-size: 45pt; }
   .bigH2 {
-    font-size: 48pt; } }
+    font-size: 48pt; }
+  .formTextarea {
+    max-width: 230px; } }
 
 @media only screen and (max-width: 699px) {
   .divBar {
@@ -1152,7 +1166,8 @@ footer {
   .divBar {
     display: none; }
   .formTextarea {
-    width: 615px; }
+    max-width: 580px;
+    max-height: 100px; }
   /*GRIDS*/
   .servGrid {
     display: grid;
@@ -1281,7 +1296,8 @@ footer {
     justify-content: center; }
   /*FULL SCREEN FORM*/
   .formTextarea {
-    width: 615px; }
+    max-width: 580px;
+    max-height: 100px; }
   /*FULL SCREEN GENERAL*/
   h2 {
     font-size: 55pt; }
